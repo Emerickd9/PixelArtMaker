@@ -7,8 +7,8 @@ $('document').ready(function () {
    
     // Lets the grid be cleared when hitting the 'Submit' button again
     $('table tr').remove(); 
-    var row_input = $('#input_height').val(); // Allows the user to add a chosen value inside the input box to add rows 
-    var col_input = $('#input_width').val(); // Allows the user to add a chosen value inside the 2nd input box to add columns
+    var row_input = $('#inputHeight').val(); // Allows the user to add a chosen value inside the input box to add rows 
+    var col_input = $('#inputWeight').val(); // Allows the user to add a chosen value inside the 2nd input box to add columns
     
     //this loop creates the table row and columns based on user input from above
     for (var i = 1; i <= row_input; i++) { 
